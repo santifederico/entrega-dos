@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 1. TIPOGRAFIAS
+
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+
+.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+*/
+
+/* 2. RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. COLORES
+#FFFFFF
+#FDFBEE
+#015551
+#57B4BA
+#FE4F2D
+#000000
+*/
+
+/* 4. ESTILOS GENERALES | 5. ORDENADOS SEGÚN ESTRUCTURA */
+/* HEADER */
+.header-container {
+    width: 100%;
+    padding: .625rem 1.25rem;
+    background-color: #FE4F2D;
+    /*box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo .logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo {
+    height: 5rem;
+    margin-right: 0.5rem;
+}
+
+.logo-text {
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.header-extras {
+    display: flex;
+    align-items: center;
+    gap: .625rem;
+}
+
+.header-extras img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.header-extras button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.lang-switch a {
+    text-decoration: none;
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-separator {
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 10px 0;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.main-nav a:hover {
+    color: #FFFFFF;
+}
+
+
+/* BODY */
+section {
+    background-color: #000000;
+}
+
+p {
+    color: #FFFFFF;
+    font-family:  "Inter", sans-serif;
+    font-size: 40px;
+}
+
+.proyectos-y-experiencias {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.proyectos-y-experiencias h2 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.instrumentos {
+    background-color: #000000;
+}
+
+.instrumentos h2 {
+    color: #FFFFFF;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.abordaje {
+    background-color: #FFFFFF;
+}
+
+.abordaje h2 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.metodologia {
+    background-color: #015551;
+}
+
+.metodologia h2 {
+    color: #FFFFFF;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.nosotros {
+    background-color: #015551;
+}
+
+.nosotros h2 {
+    color: #FFFFFF;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.alianzas {
+    background-color: #FFFFFF;
+}
+
+.alianzas h2 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.nuestros-recursos {
+    background-color: #FFFFFF;
+}
+
+.nuestros-recursos h2 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.sumate {
+    background-color: #000000;
+}
+
+.sumate h2 {
+    color: #FFFFFF;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.seguinos {
+    background-color: #FFFFFF;
+}
+
+.seguinos h2 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.seguinos h3 {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.seguinos p {
+    color: #000000;
+    font-family:  "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* FOOTER
+
+footer {
+    background-color: #57B4BA;
+}
+
+footer nav ul {
+    list-style: none;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    font-family:  "Inter", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    font-size: 20px;
+}
+
+.footer-nav p {
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer-nav h2 {
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+}
+
+.logo p {
+    text-decoration: none;
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 64px;
+    font-weight: 300; 
+}
+
+.copy {
+    font-family:  "Inter", sans-serif;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
