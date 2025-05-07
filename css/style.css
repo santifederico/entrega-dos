@@ -124,8 +124,75 @@
     color: #FFFFFF;
 }
 
+.header-container-pages {
+    display: flex;
+    width: 100%;
+    padding: .625rem 1.25rem;
+    background-color: #FE4F2D;
+}
+
+.pages-nav {
+    display: flex;
+    align-items: center;
+}
+
+.pages-nav ul {
+    display: flex;
+    gap: 160px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages-nav a {
+    text-decoration: none;
+    font-family:  "Inter", sans-serif;
+    justify-content: space-between;
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.pages-nav a:hover {
+    color: #FFFFFF;
+}
 
 /* BODY */
+.inicio {
+    background-color: #000000;
+    padding: 150px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    justify-content: center;
+}
+
+.inicio p {
+    color: #FFFFFF;
+    font-family:  "Inter", sans-serif;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button-orange {
+    color: #000000;
+    background-color: #FE4F2D;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.button-container a:hover {
+    color: #FFFFFF;
+}
+
 section {
     background-color: #000000;
 }
@@ -144,8 +211,9 @@ p {
 .proyectos-y-experiencias h2 {
     color: #000000;
     font-family:  "Roboto", sans-serif;
+    padding: 30px;
     font-size: 24px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .instrumentos {
