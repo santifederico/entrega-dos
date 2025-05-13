@@ -234,6 +234,18 @@ header {
     color: #000;
 }
 
+/* index */
+
+.container-map {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.container-map img {
+    width: 90%;
+}
+
 /* que-hacemos */
 
 .instrumentos {
