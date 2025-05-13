@@ -11,6 +11,9 @@ El sitio está dividido en las siguientes secciones:
 - **Recursos:** Publicaciones, libros y artículos relevantes.
 - **Contacto:** Información para comunicarse con el equipo.
 
+## Enlace a FIgma
+- https://www.figma.com/design/dfLoiiKDsRM3mBXfgfXkjH/Brujula?node-id=0-1&t=C7yQkyybMiEFAiwO-1
+
 ## Tecnologías Utilizadas
 - HTML5 para la estructura del contenido.
 - CSS3 para el diseño y la presentación.
